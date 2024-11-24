@@ -1,0 +1,97 @@
+h1{
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    font-family: Arial;
+}
+body{
+    background-color: rgb(44, 44, 44);
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+nav{
+    border: solid 3px #191919;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 22px;
+    background-color: #191919;
+}
+a{
+    width: 300px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Verdana;
+    color: white;
+    text-align: right;
+    margin: 0px 5px;
+}
+.left{
+    border-radius: 2px;
+}
+a:hover {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 18px;
+    font-family: Verdana;
+    color: white;
+}
+h3{
+    padding: 20px 3px;
+    border-radius: 15px;
+    background-color: #191919;
+    color: white;
+    font-family: Verdana;
+    font-size: 32px;
+}
+.text{
+    padding: 0px 0px;
+    border-radius: 0px;
+    background-color: rgb(44, 44, 44);
+    float: center;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.te{
+    text-align: justify;
+    color: white;
+    font-family: Verdana;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+*{
+    box-sizing: border-box;
+}
+.eu_flag{
+    position: relative;
+    left:50%;
+}
+.eu_text{
+    position: relative;
+    left:50%;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+.highlight:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
